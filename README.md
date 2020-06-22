@@ -50,7 +50,7 @@ Designer for micro-optics, displays
 The main tasks include the designing light guide illumination for displays based on complex micro-optical structures. You will work as part of our design team and support our marketing and sales team in product and production concept development tasks. You should possess a suitable educational background, knowledge of micro-optics design software and tools, solid practical experience preferably in industry, as well as a strong team spirit. English skills, including knowledge of special optics terminology, are essential.
 
 
-Inquiries concerning the positions should be directed to Veli-Pekka Leppänen, tel. +358 400 127 680 or veli-pekka.leppanen@nanocomp.fi. 
+Inquiries concerning the positions should be directed to Veli-Pekka Leppänen, tel. +358 400 127 680 or veli-pekka.leppanen@nanocomp.fi.
 
 To do:
 1. launch pychram to show color analysis
@@ -63,16 +63,16 @@ To do:
 To tell:
 Name Velli-Pekka, Matti?
 
-Right now I-m optical engineer at lighting technologies. This is one of the top lighting mass production company in our region and we have also plants in India, Spain and Ukrane.
+Right now I-m optical engineer at lighting technologies. This is one of the top lighting mass production company in our region and we have also factories in India, Spain and Ukrane.
 I enered here 7 years ago and gained huge expreince both in calculating and manufacturing optics and lighting fixtures too.
-Now I have over 30 completed family projects and two assistants to coordinate. All LED-based projects optics on web-site is desinged by me. So if you are interested I can describe any of them in tiny details.
+Now I have over 30 completed family projects and two assistants to coordinate. All LED-based products optics on web-site is desinged by me. So if you are interested I can describe any of them in tiny details.
 
-Initially we were bying from LEDIL and chinese for custom optics. I belive you are familiar with LEDIL guys, they made really good business. I-ve visited their place in Salo. Unfortunately most of production moved to china too. So, it was about 1 million $ per year spent on purchasing optics. I believe that my biggest achivement is that I moved company from totally buying to mainly manufacturing optics at our plant. So cost reduced by more than 10 times.
+Initially we were bying optics from LEDIL and some other suppliers. I belive you are familiar with LEDIL guys, they made really good business. I-ve visited their place in Salo. Unfortunately most of production moved to china too. So, it was about 1 million $ per year spent on purchasing optics. I believe that my biggest achivement is that I moved company from totally buying to mainly manufacturing optics at our factory. So cost reduced by more than 10 times.
 
 Let me briefly describe the desing process and tools I use today:
-1) For secondary optics for first order calculation with a point source assumption I use mathcad and visual basic. I create mapping in spherical or UV coordinate system. Check conservation of etendue to get the idea about the size. Then upload it to solidworks to check and modify the geometry. I made a routine in VBA that uses Solidworks API to automate this process. Next by bridge I send the geometry to Lighttools or Tracepro to simulate and analyze. After that I rebuild the geometry in optical software to parametrize and run optimization. I check all photometric , colorimetric, mechanical tolerance and visual paramters. Analyze manufacturing restrictions, choose the supplier. Usually I order tooling(molds & extrusion) from Italy (good price\quality ratio) And it looks like they are in love with machines. Chinese are not so patient, but they are good at tuning technology)). This is for molds.
-2)Also I work with laser machine for laser guide panels. I used Lightools, now I have to use Tracepro texture optimizer for calculation the pattern. So we have launched LGP luminaire family.
-Before I also got some outsourced silk-printing for signage application. But white ink is not UV stable.
+1) For secondary optics for first order calculation with a point source assumption I use mathcad and visual basic. I create mapping in spherical or UV coordinate system. Check conservation of etendue to get the idea about the size. Then upload it to solidworks to check and modify the geometry. I made a routine in VBA that uses Solidworks API to automate this process. Next by bridge I send the geometry to Lighttools or Tracepro to simulate and analyze. After that I rebuild the geometry in optical software to parametrize and run optimization. At the end of the design process I choose photoetcheing or lenslet microstructure to properly mix the color. I check all photometric , colorimetric, mechanical tolerance and visual paramters. Analyze manufacturing restrictions, choose the supplier. Usually I order tooling(molds & extrusion) from Italian (good price\quality ratio) And it looks like they are in love with machines. Chinese are good at tuning the technology.
+2)Also I work with laser machine for laser guide panels. It took a while to adjust our beam-splitter and laser power to get proper dot geometry (it is droplet), and choose the right acrylic supplier. For simple cases like square or rectangular shape I use embedded software to adjust density and dot power. For more complex shapes I used Lightools optimizer, now I have to use Tracepro texture optimizer for calculation the pattern. So we have successufully launched LGP luminaire family.
+Before I also got some experience with silk-printing for signage application. But white ink is not UV stable.
 
 3) We tried to get into automotive industry for headlamps and lightguides together with major LED supplier. I made some designs for showcase but we didn-t manage to sell our service. It-s a tricky business there. Just production is not enough.
 
@@ -80,7 +80,7 @@ Before I also got some outsourced silk-printing for signage application. But whi
 
 Like I mentioned before I-ve developed tool for building by solidworks the optical geometry based on needed illumination and angle or specified light distribution.
  Implemented photometry file storage system and file converter to website database; in lighting industry we use ies&ldt text files.
- Provided luminaire LDT analysis tool on web-site (Russian version); it represents luminaire data and distribution graphs plus photobiological level of blue hazard to eyes. 
+ Provided luminaire LDT analysis tool on web-site (Russian version); it represents luminaire data and distribution graphs plus photobiological level of blue hazard to your eyes. 
 
  Developed image analysis tool (by OpenCV) and method for light-beam photos
 comparison. And presented it at LPS LED Symposium LINK; 
