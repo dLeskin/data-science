@@ -61,31 +61,37 @@ To do:
 
 
 To tell:
-Name Velli-Pekka?
+Name Velli-Pekka, Matti?
 
-Right now I-m optical engineer at lighting technologies. This is one of the top lighting mass production company in our region and we have also plants India, Spain and Ukrane.
-I enered here 7 years ago and gained huge expreince both in calculating and manufacturing optics and lighting fixtures.
-Now I have over 30 completed projects and two assistants to coordinate. All LED-based projects optics on web-site desinged by me. So if you are interested I can describe any of them in details.
+Right now I-m optical engineer at lighting technologies. This is one of the top lighting mass production company in our region and we have also plants in India, Spain and Ukrane.
+I enered here 7 years ago and gained huge expreince both in calculating and manufacturing optics and lighting fixtures too.
+Now I have over 30 completed family projects and two assistants to coordinate. All LED-based projects optics on web-site is desinged by me. So if you are interested I can describe any of them in tiny details.
 
-Initially we were bying from LEDIL and chinese for custom optics. I belive you are familiar with LEDIL guys, they made really good business. I-ve visited their place in Salo. Unfortunately most of production moved to china too. So it was about 1 million $ per spent on purchasing optics. I believe that my biggest achivement is that I moved company from buying to manufacturing optics at our plant.
+Initially we were bying from LEDIL and chinese for custom optics. I belive you are familiar with LEDIL guys, they made really good business. I-ve visited their place in Salo. Unfortunately most of production moved to china too. So, it was about 1 million $ per year spent on purchasing optics. I believe that my biggest achivement is that I moved company from totally buying to mainly manufacturing optics at our plant. So cost reduced by more than 10 times.
 
-Let me briefly describe the desing process and tools I use:
-1) For secondary optics for first order calculation with point source assumption I use mathcad and visual basic. I create mapping in spherical or UV coordinate system. Check conservation of etendue to get the idea about the size. Then upload it to solidworks to check and modify the geometry. I made a routine in VBA that uses Solidworks API to automate this process. Next by bridge I send the geometry to Lighttools or Tracepro to simulate and analyze. After that I rebuild the geometry in optical software to parametrize and run optimization. I check all photometric , colorimetric, mechanical tolerance and visual paramters. Analyze manufacturing restrictions, choose the supplier. Usually I order tooling from Italy (good quality/price ratio) And it looks like they are in love with machines. CHinese are not so patient, but they are good at tuning technology)). This is for molds.
-2)Also I work with laser machine for laser guide panels. I use 
-Outsource for silk-printing
+Let me briefly describe the desing process and tools I use today:
+1) For secondary optics for first order calculation with a point source assumption I use mathcad and visual basic. I create mapping in spherical or UV coordinate system. Check conservation of etendue to get the idea about the size. Then upload it to solidworks to check and modify the geometry. I made a routine in VBA that uses Solidworks API to automate this process. Next by bridge I send the geometry to Lighttools or Tracepro to simulate and analyze. After that I rebuild the geometry in optical software to parametrize and run optimization. I check all photometric , colorimetric, mechanical tolerance and visual paramters. Analyze manufacturing restrictions, choose the supplier. Usually I order tooling(molds & extrusion) from Italy (good price\quality ratio) And it looks like they are in love with machines. Chinese are not so patient, but they are good at tuning technology)). This is for molds.
+2)Also I work with laser machine for laser guide panels. I used Lightools, now I have to use Tracepro texture optimizer for calculation the pattern. So we have launched LGP luminaire family.
+Before I also got some outsourced silk-printing for signage application. But white ink is not UV stable.
 
-3) Tried to get into automotive industry for headlamps and lightguides together with major LED supplier. I made some designs but we didn-t manage to sell our service. It-s a tricky business there. Just product is not enough.
+3) We tried to get into automotive industry for headlamps and lightguides together with major LED supplier. I made some designs for showcase but we didn-t manage to sell our service. It-s a tricky business there. Just production is not enough.
 
 4) For all this I have coded some tools:
 
- Developed image analysis tool (by OpenCV) and methodology for light-beam photos
-comparison. LPS LED Symposium LINK;
- Implemented photometry file storage system and file converter to website database;
- Provided luminaire LDT analysis tool on web-site (Russian version);
- Complex 3D modeling and rendering of optical systems.
- Deep knowledge in Physics of light, color spaces, spectral characteristics.
+Like I mentioned before I-ve developed tool for building by solidworks the optical geometry based on needed illumination and angle or specified light distribution.
+ Implemented photometry file storage system and file converter to website database; in lighting industry we use ies&ldt text files.
+ Provided luminaire LDT analysis tool on web-site (Russian version); it represents luminaire data and distribution graphs plus photobiological level of blue hazard to eyes. 
 
-5) In addition I design all mechanical parts for prototyping and choose LED according to light charactistics. Especially to color distributions. They are highly non-uniform.
+ Developed image analysis tool (by OpenCV) and method for light-beam photos
+comparison. And presented it at LPS LED Symposium LINK; 
+Motivation: LEDs are really non-uniform from color point of view. Their Angular and spatial distribution sometimes impossible mix by just lens. 
+During any project you have to comfirm visual beam effect from your optics+LED combination inside your team. Since I work for each project in company I have to do lots of coparison at real life with real people. And due to emotional aspects their perception is not objective.
+So I made a digital tool for simulataneous comparison of many photos. The program finds non-uniformity at each photo, draw a countour according to HSV values set by a user and helps to count where is the best result in area or gradient.
+
+By the way it is possible to implement for lightguides in case of some chromatic effects due to diffraction or analyzing luminance uniformity. Similar tools has konica minolta but they made it for 
+
+
+5) In addition I design all mechanical parts for prototyping and choose LED according to light charactistics. Especially to color distributions.
 
 
 Impressed by features:
@@ -95,3 +101,14 @@ skew rays
 
 Questions:
 IQ structure in prague, brightview, whiteoptics(alanod machines suits roll2roll).
+
+
+three projects:
+-launched first lens project
+-launched LGP machine
+-developed color analysis tool
+
+experience:
+calculation
+manufacturing
+programming
